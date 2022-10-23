@@ -12,7 +12,7 @@ include_directories(
 )
 
 list(APPEND samples encoder)
-list(APPEND samples decoder)
+# list(APPEND samples decoder)
 
 file(GLOB_RECURSE core_sources ${PROJECT_SOURCE_DIR}/src/core/*.cpp)
 foreach(sample ${samples})

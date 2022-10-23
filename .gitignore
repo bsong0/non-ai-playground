@@ -45,3 +45,6 @@ test
 # Symlinks to executables
 encoder
 decoder
+
+.idea
+.vscode
